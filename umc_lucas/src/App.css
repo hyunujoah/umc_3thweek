@@ -1,0 +1,44 @@
+.app {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 {
+    color: #ff0066;
+  }
+  
+  .movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .movie-item {
+    background-color: #222;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .movie-item img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .movie-item h2 {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+  }
+  
+  .movie-item p {
+    font-size: 0.9em;
+    color: #ccc;
+  }
+  
